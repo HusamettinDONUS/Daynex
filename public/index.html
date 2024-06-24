@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-light">
+    <header>
+      <nav
+        class="navbar d-none d-xl-block custom-height p-0 navbar-dark bg-primary navbar-expand-lg"
+      >
+        <div class="container">
+          <button
+            type="button"
+            class="navbar-toggler border"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar_main"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse d-flex" id="navbar_main">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle border-start border-end text-white"
+                  data-bs-toggle="dropdown"
+                  >English</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="" class="dropdown-item">Deutsch</a>
+                  </li>
+                  <li>
+                    <a href="" class="dropdown-item">French</a>
+                  </li>
+                  <li>
+                    <a href="" class="dropdown-item">Requires WPML plugin</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle text-white"
+                  data-bs-toggle="dropdown"
+                  >Country</a
+                >
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="" class="dropdown-item">United States (USD)</a>
+                  </li>
+                  <li>
+                    <a href="" class="dropdown-item">Deutschland (EUR)</a>
+                  </li>
+                  <li>
+                    <a href="" class="dropdown-item">Japan (JPY)</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link border-start text-white"
+                  >FREE SHIPPING FOR ALL ORDERS OF $150
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="navbar-nav">
+              <a href="" class="btn btn-light bg-transparent border-0 px-1">
+                <i class="fa-brands fa-facebook-f text-white"></i>
+              </a>
+              <a href="" class="btn btn-light bg-transparent border-0 px-1">
+                <i class="fa-brands fa-x-twitter text-white"></i>
+              </a>
+              <a href="" class="btn btn-light bg-transparent border-0 px-1">
+                <i class="fa-brands fa-instagram text-white"></i>
+              </a>
+              <a href="" class="btn btn-light bg-transparent border-0 px-1">
+                <i class="fa-brands fa-youtube text-white"></i>
+              </a>
+              <a
+                href=""
+                class="btn btn-light bg-transparent border-0 px-1 pe-3"
+              >
+                <i class="fa-brands fa-pinterest text-white"></i>
+              </a>
+
+              <li class="nav-item d-flex align-items-center border-start ps-2">
+                <i class="fa-regular fa-envelope"></i>
+                <a href="" class="nav-link text-white">NEWSLETTER </a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link border-start text-white"
+                  >CONTACT US
+                </a>
+              </li>
+              <li class="nav-item border-start border-end">
+                <a href="" class="nav-link text-white">FAQS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="d-xl-none d-flex bg-primary justify-content-center">
+        <a href="" class="btn btn-light bg-transparent border-0 px-1">
+          <i class="fa-brands fa-facebook-f text-white"></i>
+        </a>
+        <a href="" class="btn btn-light bg-transparent border-0 px-1">
+          <i class="fa-brands fa-x-twitter text-white"></i>
+        </a>
+        <a href="" class="btn btn-light bg-transparent border-0 px-1">
+          <i class="fa-brands fa-instagram text-white"></i>
+        </a>
+        <a href="" class="btn btn-light bg-transparent border-0 px-1">
+          <i class="fa-brands fa-youtube text-white"></i>
+        </a>
+        <a href="" class="btn btn-light bg-transparent border-0 px-1 pe-3">
+          <i class="fa-brands fa-pinterest text-white"></i>
+        </a>
+      </nav>
+
+      <section
+        class="d-none d-xl-flex top-bar justify-content-between align-items-center"
+      >
+        <div class="container">
+          <div class="row gy-3 p-3">
+            <div class="col-lg-2 col-4 w-25">
+              <img src="/img/wood-logo-dark.svg" class="img-fluid" alt="logo" />
+            </div>
+            <div class="order-lg-last ps-0 col-lg-5 col-8 w-25">
+              <div class="text-end m-0">
+                <a href="" class="text-decoration-none text-dark"
+                  >LOGIN/REGISTER</a
+                >
+                <i class="fa-regular fa-heart bigIcon p-2"></i>
+                <i class="fa-solid fa-code-compare bigIcon p-2"></i>
+                <div class="d-inline p-2">
+                  <i class="fa-solid fa-bag-shopping bigIcon"></i>
+                  <span class="fs-6">$0.00</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-12 w-50">
+              <form>
+                <div
+                  class="d-flex align-items-center gap-2 border rounded border-secondary-subtle"
+                >
+                  <input
+                    type="text"
+                    class="form-control border-0"
+                    placeholder="Search for products"
+                  />
+                  <div class="bg-body-white">
+                    <a
+                      href="#"
+                      class="nav-link dropdown-toggle bg-body-white text-secondary"
+                      data-bs-toggle="dropdown"
+                      >SELECT CATEGORY</a
+                    >
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="" class="dropdown-item">Clocks</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Lighting</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Furniture</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Accessories</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Cooking</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Toys</a>
+                      </li>
+                      <li>
+                        <a href="" class="dropdown-item">Other</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <buttun class="btn btn-primary bg-white border-0">
+                    <i class="fa fa-search"></i>
+                  </buttun>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section class="pt-3 slider">
+      <div class="container">
+        <main class="card">
+          <div class="row p-lg-3 p-1 justify-content-center">
+            <aside class="d-none d-xl-block col-lg-3">
+              <nav class="nav flex-column border-end border-start">
+                <div
+                  class="d-flex gap-3 justify-content-between align-items-center bg-primary text-white p-3"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                  <span>BROWSE CATEGORIES</span>
+                  <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-chair bigIcon"></i>
+                    <span class="ps-2">Furniture</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-utensils bigIcon"></i>
+                    <span class="ps-2">Cooking</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-regular fa-keyboard bigIcon"></i>
+                    <span class="ps-2">Accessories</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-user-tie bigIcon"></i>
+                    <span class="ps-2">Fashion</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-regular fa-clock bigIcon"></i>
+                    <span class="ps-2">Clocks</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-regular fa-lightbulb bigIcon"></i>
+                    <span class="ps-2">Lighting</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-gamepad bigIcon"></i>
+                    <span class="ps-2">Toys</span>
+                  </div>
+                  <i class="fa-solid fa-angle-right text-secondary pe-2"></i>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-brands fa-centos bigIcon"></i>
+                    <span class="ps-2">Hand Made</span>
+                  </div>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-minimize bigIcon"></i>
+                    <span class="ps-2">Minimalizim</span>
+                  </div>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-bolt bigIcon"></i>
+                    <span class="ps-2">Electronics</span>
+                  </div>
+                </div>
+                <div
+                  class="p-2 ps-4 d-flex justify-content-between border-bottom"
+                >
+                  <div>
+                    <i class="fa-solid fa-car bigIcon"></i>
+                    <span class="ps-2">Cars</span>
+                  </div>
+                </div>
+              </nav>
+            </aside>
+            <div class="col-lg-9">
+              <div
+                class="d-none d-xl-flex justify-content-between border-bottom"
+              >
+                <ul class="nav gap-3">
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">HOME</a
+                    ><i
+                      class="fa-solid fa-angle-down smallIcon text-secondary"
+                    ></i>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">SHOP</a
+                    ><i
+                      class="fa-solid fa-angle-down smallIcon text-secondary"
+                    ></i>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">BLOG</a
+                    ><i
+                      class="fa-solid fa-angle-down smallIcon text-secondary"
+                    ></i>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">PAGES</a
+                    ><i
+                      class="fa-solid fa-angle-down smallIcon text-secondary"
+                    ></i>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">ELEMENTS</a
+                    ><i
+                      class="fa-solid fa-angle-down smallIcon text-secondary"
+                    ></i>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                    <a class="nav-link p-1 text-dark" href="#">BUY</a>
+                  </li>
+                </ul>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link border-end" href="#">SPECIAL OFFER</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">PURCHASE THEME</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div
+                class="d-flex d-xl-none justify-content-between align-items-center border-bottom"
+              >
+                <div
+                  class="d-flex justify-content-center align-items-center gap-1"
+                >
+                  <i class="fa-solid fa-bars"></i>Menu
+                </div>
+                <img
+                  src="/img/wood-logo-dark.svg"
+                  class="img-fluid w-50 h-50"
+                  alt="logo"
+                />
+                <i class="fa-solid fa-bag-shopping bigIcon"></i>
+              </div>
+
+              <div
+                id="slider"
+                class="carousel slide pt-3"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item w-75 h-75 active">
+                    <div class="d-flex">
+                      <div class="caption-container">
+                        <div class="carousel-caption carousel-caption-left">
+                          <h1 class="text-dark fw-bold">Rock Chair</h1>
+                          <p class="text-secondary d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut, est cum.
+                          </p>
+                          <span class="text-primary fs-2">$199</span>
+                        </div>
+                      </div>
+                      <div class="img-container">
+                        <img
+                          src="/img/1_org_zoom.webp"
+                          class="d-block img-fluid w-65"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item w-75 h-75">
+                    <div class="d-flex">
+                      <div class="caption-container">
+                        <div class="carousel-caption carousel-caption-left">
+                          <h1 class="text-dark fw-bold">Side Chair</h1>
+                          <p class="text-secondary d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut, est cum.
+                          </p>
+                          <span class="text-primary fs-2">$99</span>
+                        </div>
+                      </div>
+                      <div class="img-container">
+                        <img
+                          src="/img/1_org_zoom (2).webp"
+                          class="d-block img-fluid w-65"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item w-75 h-75">
+                    <div class="d-flex">
+                      <div class="caption-container">
+                        <div class="carousel-caption carousel-caption-left">
+                          <h1 class="text-dark fw-bold">Loun Chair</h1>
+                          <p class="text-secondary d-none d-md-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aut, est cum.
+                          </p>
+                          <span class="text-primary fs-2">$197</span>
+                        </div>
+                      </div>
+                      <div class="img-container">
+                        <img
+                          src="/img/1_org_zoom (1).webp"
+                          class="d-block img-fluid w-65"
+                          alt="..."
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon bg-primary"></span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon bg-primary"></span>
+                </button>
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="0"
+                    class="active bg-primary"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="1"
+                    class="bg-primary"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#slider"
+                    data-bs-slide-to="2"
+                    class="bg-primary"
+                  ></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

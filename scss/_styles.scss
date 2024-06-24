@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px !important;
+}
+
+i {
+  font-size: 14px !important;
+}
+
+.bigIcon {
+  font-size: 20px !important;
+}
+
+.top-bar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.btn-light {
+  background-color: #fff;
+  border-color: #dee2e6;
+  color: #212529;
+}
+
+.btn-light:hover {
+  background-color: #c1c9d0;
+  color: $primary;
+}
+
+.btn-light i {
+  color: #9da1a7;
+}
+
+.btn-light:hover i {
+  color: $primary;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.text-color {
+  color: white;
+}
+
+.custom-height {
+  height: 42px;
+}
+
+.smallIcon {
+  font-size: 11px;
+}
+
+.carousel-caption-left {
+  right: 0;
+  left: 0;
+  top: 10%;
+  text-align: left;
+  width: 30%;
+}
+
+.carousel-item .img-container {
+  width: 70%;
+  float: right;
+}
+.carousel-item .caption-container {
+  width: 30%;
+  float: left;
+}
+
+.carousel-item {
+  left: 25%;
+  right: 25%;
+}
+
+.w-65 {
+  width: 65% !important;
+}
